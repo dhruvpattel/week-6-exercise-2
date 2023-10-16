@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.flex-container{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    width: 800px;
+    border: solid black;
+}
+
+.flex-item-one{
+    flex: 1;
+    padding: 10px;
+    width: 800px;
+    border-right: solid ; 
+}
+
+.flex-item-two{
+    flex: 1;
+    padding: 10px;
+    
+}
+
+.flex-item-two a {
+    text-decoration: none;
+    color: #333;
+    margin: 10px;
+
+}
+
+.flex-item-two li{
+    padding: 10px;
+    text-decoration: none;
+}
+
